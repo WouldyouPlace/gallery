@@ -34,6 +34,14 @@ html,body,figure{
   vertical-align: center;
   text-align: center;
   backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .rear-title{
+  padding-top: 50px;
+  color: #aaa;
+  font-size: 20px;
 }
 .img-figure img{
   width: 100%;
@@ -69,9 +77,10 @@ html,body,figure{
   bottom: 100px;
   left: 50%;
   transform: translate(-50%,-50%);
+  display: flex;
+
 }
 .controller-unite{
-  display: inline-block;
   height: 30px;
   vertical-align: middle;
   width: 30px;

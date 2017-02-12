@@ -49,10 +49,10 @@
 				<figure className={imgFigureClassName} ref='imgFrgure0' style={styleObj} onClick = {this.handleClick}>
 					<img src={this.props.data.imgUrl} alt={this.props.data.title} />
 				<figcaption>
-				<h2 className="img-title">{this.props.data.title}</h2>
+					<h2 className="img-title">{this.props.data.title}</h2>
 				</figcaption>
 				<div className="rearContent">
-					{this.props.data.title}
+					<p className="rear-title">{this.props.data.title}</p> 
 				</div>	
 				</figure>
 			)
